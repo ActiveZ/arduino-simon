@@ -1,0 +1,352 @@
+EESchema Schematic File Version 4
+LIBS:simon-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R4
+U 1 1 5CC9BFD8
+P 2500 2050
+F 0 "R4" H 2650 1950 50  0000 C CNN
+F 1 "220" H 2650 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2430 2050 50  0001 C CNN
+F 3 "~" H 2500 2050 50  0001 C CNN
+	1    2500 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CC9C9A3
+P 3000 2050
+F 0 "R5" H 3150 1950 50  0000 C CNN
+F 1 "220" H 3150 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 2050 50  0001 C CNN
+F 3 "~" H 3000 2050 50  0001 C CNN
+	1    3000 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5CC9CDB3
+P 5400 3150
+F 0 "R8" H 5500 3100 50  0000 L CNN
+F 1 "10k" H 5500 3200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5330 3150 50  0001 C CNN
+F 3 "~" H 5400 3150 50  0001 C CNN
+	1    5400 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5CC9F1AA
+P 2500 3500
+F 0 "SW1" V 2550 3750 50  0000 C CNN
+F 1 "SW_Push" V 2450 3750 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 2500 3700 50  0001 C CNN
+F 3 "~" H 2500 3700 50  0001 C CNN
+	1    2500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5CC9F79D
+P 3000 3500
+F 0 "SW2" V 3050 3750 50  0000 C CNN
+F 1 "SW_Push" V 2950 3750 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 3000 3700 50  0001 C CNN
+F 3 "~" H 3000 3700 50  0001 C CNN
+	1    3000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5CC9FEAF
+P 3500 3500
+F 0 "SW3" V 3550 3750 50  0000 C CNN
+F 1 "SW_Push" V 3450 3750 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 3500 3700 50  0001 C CNN
+F 3 "~" H 3500 3700 50  0001 C CNN
+	1    3500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5CCA04EC
+P 4000 3500
+F 0 "SW4" V 4050 3750 50  0000 C CNN
+F 1 "SW_Push" V 3950 3750 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 4000 3700 50  0001 C CNN
+F 3 "~" H 4000 3700 50  0001 C CNN
+	1    4000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5CCA0A4F
+P 4500 2050
+F 0 "BZ1" H 4450 1850 50  0000 L CNN
+F 1 "Buzzer" H 4400 1750 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 4475 2150 50  0001 C CNN
+F 3 "~" V 4475 2150 50  0001 C CNN
+	1    4500 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CCBC6D2
+P 2750 3300
+F 0 "R1" V 2543 3300 50  0000 C CNN
+F 1 "220" V 2634 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2680 3300 50  0001 C CNN
+F 3 "~" H 2750 3300 50  0001 C CNN
+	1    2750 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CCBC6E4
+P 3250 3300
+F 0 "R2" V 3043 3300 50  0000 C CNN
+F 1 "220" V 3134 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3180 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CCBC6DE
+P 3750 3300
+F 0 "R3" V 3957 3300 50  0000 C CNN
+F 1 "220" V 3866 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 3300 50  0001 C CNN
+F 3 "~" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5CC9C262
+P 4000 2050
+F 0 "R7" H 3800 2150 50  0000 L CNN
+F 1 "220" H 3800 2050 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3930 2050 50  0001 C CNN
+F 3 "~" H 4000 2050 50  0001 C CNN
+	1    4000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1750 6000 1750
+Wire Wire Line
+	4600 1950 4800 1950
+NoConn ~ 5800 2450
+NoConn ~ 5800 2250
+NoConn ~ 5800 2150
+NoConn ~ 5800 2050
+NoConn ~ 5800 1950
+NoConn ~ 5800 1850
+NoConn ~ 5200 750 
+NoConn ~ 5400 750 
+NoConn ~ 5800 1150
+NoConn ~ 5800 1550
+NoConn ~ 4800 2050
+NoConn ~ 4800 2150
+NoConn ~ 4800 2250
+NoConn ~ 4800 2350
+NoConn ~ 4800 2450
+NoConn ~ 4800 1850
+NoConn ~ 4800 1750
+NoConn ~ 4800 1250
+NoConn ~ 4800 1150
+Wire Wire Line
+	2500 3300 2600 3300
+Wire Wire Line
+	2900 3300 3000 3300
+Wire Wire Line
+	3000 3300 3100 3300
+Connection ~ 3000 3300
+Wire Wire Line
+	3400 3300 3500 3300
+Wire Wire Line
+	3500 3300 3600 3300
+Connection ~ 3500 3300
+Wire Wire Line
+	3900 3300 4000 3300
+Connection ~ 4000 3300
+Wire Wire Line
+	2500 3700 3000 3700
+Wire Wire Line
+	3000 3700 3500 3700
+Connection ~ 3000 3700
+Wire Wire Line
+	3500 3700 4000 3700
+Connection ~ 3500 3700
+Wire Wire Line
+	4000 3700 6300 3700
+Wire Wire Line
+	6300 3700 6300 750 
+Wire Wire Line
+	6300 750  5500 750 
+Connection ~ 4000 3700
+$Comp
+L Device:R R6
+U 1 1 5CC9C570
+P 3500 2050
+F 0 "R6" H 3300 2150 50  0000 L CNN
+F 1 "220" H 3300 2050 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3430 2050 50  0001 C CNN
+F 3 "~" H 3500 2050 50  0001 C CNN
+	1    3500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5CC9D4C3
+P 4000 2550
+F 0 "D4" V 4100 2700 50  0000 C CNN
+F 1 "LED" V 3993 2675 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4000 2550 50  0001 C CNN
+F 3 "~" H 4000 2550 50  0001 C CNN
+	1    4000 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CC9E875
+P 3000 2550
+F 0 "D2" V 3100 2700 50  0000 C CNN
+F 1 "LED" V 3000 2700 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3000 2550 50  0001 C CNN
+F 3 "~" H 3000 2550 50  0001 C CNN
+	1    3000 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CC9ECB9
+P 2500 2550
+F 0 "D1" V 2600 2700 50  0000 C CNN
+F 1 "LED" V 2493 2675 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 2500 2550 50  0001 C CNN
+F 3 "~" H 2500 2550 50  0001 C CNN
+	1    2500 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 1650 4000 1900
+Wire Wire Line
+	4000 1650 4800 1650
+Wire Wire Line
+	3500 1550 3500 1900
+Wire Wire Line
+	3500 1550 4800 1550
+Wire Wire Line
+	3000 1450 3000 1900
+Wire Wire Line
+	3000 1450 4800 1450
+Wire Wire Line
+	2500 1350 2500 1900
+Wire Wire Line
+	2500 1350 4800 1350
+Wire Wire Line
+	4000 2200 4000 2400
+Wire Wire Line
+	3000 2200 3000 2400
+Wire Wire Line
+	2500 2200 2500 2400
+Wire Wire Line
+	6000 1750 6000 3300
+Wire Wire Line
+	3500 2200 3500 2400
+$Comp
+L Device:LED D3
+U 1 1 5CC9E224
+P 3500 2550
+F 0 "D3" V 3600 2700 50  0000 C CNN
+F 1 "LED" V 3493 2675 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3500 2550 50  0001 C CNN
+F 3 "~" H 3500 2550 50  0001 C CNN
+	1    3500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5CD0BC2B
+P 5300 1750
+F 0 "A1" H 5300 661 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 5300 570 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 5450 800 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5300 750 50  0001 C CNN
+	1    5300 1750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5800 2350
+NoConn ~ 5800 1250
+Wire Wire Line
+	2500 2900 3000 2900
+Connection ~ 3000 2900
+Wire Wire Line
+	3000 2900 3500 2900
+Connection ~ 3500 2900
+Wire Wire Line
+	3500 2900 4000 2900
+Connection ~ 4000 2900
+Wire Wire Line
+	4000 2900 4600 2900
+Wire Wire Line
+	4600 2150 4600 2900
+Wire Wire Line
+	4000 2700 4000 2900
+Wire Wire Line
+	3500 2700 3500 2900
+Wire Wire Line
+	3000 2700 3000 2900
+Wire Wire Line
+	2500 2700 2500 2900
+Connection ~ 4600 2900
+$Comp
+L power:GND #PWR0102
+U 1 1 5CD7BCA3
+P 5150 2750
+F 0 "#PWR0102" H 5150 2500 50  0001 C CNN
+F 1 "GND" H 5155 2577 50  0000 C CNN
+F 2 "" H 5150 2750 50  0001 C CNN
+F 3 "" H 5150 2750 50  0001 C CNN
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2750 5300 2750
+Connection ~ 5300 2750
+Wire Wire Line
+	5400 2900 5400 2750
+Connection ~ 5400 3300
+Wire Wire Line
+	5400 3300 6000 3300
+Wire Wire Line
+	5400 3000 5400 2900
+Wire Wire Line
+	4000 3300 5400 3300
+Connection ~ 5400 2900
+Wire Wire Line
+	5300 2750 5400 2750
+Connection ~ 5400 2750
+Wire Wire Line
+	4600 2900 5300 2900
+Wire Wire Line
+	5300 2750 5300 2900
+Connection ~ 5300 2900
+Wire Wire Line
+	5300 2900 5400 2900
+$EndSCHEMATC
